@@ -320,7 +320,6 @@ int main(int argc, char** argv) {
             char* data = (char*)decrypted;
             if (decrypted_len && hh->type == NY_DATA)
                 data[decrypted_len] = 0;
-            if (hh->type Dadta = NY_DATA;
             if (hh->type == NY_ANNOUNCE) {
                 int is_new = 1;
                 for (int i = 0; i < used_count; i++) {
