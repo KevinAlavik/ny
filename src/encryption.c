@@ -1,5 +1,6 @@
 #include "encryption.h"
 #include "protocol.h"
+#include <string.h>
 
 void compute_hmac(const uint8_t* key, const uint8_t* data, size_t data_len, uint8_t* hmac) {
     LOG("DEBUG", "Computing HMAC for data of length %zu", data_len);
