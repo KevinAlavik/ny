@@ -12,8 +12,8 @@
 #include <sys/ioctl.h>
 #include <net/if_arp.h>
 #include <fcntl.h>
-#include "protocol.h"
-#include "encryption.h"
+#include <protocol.h>
+#include <encryption.h>
 
 static const uint8_t PRE_SHARED_KEY[KEY_LENGTH] = {
     0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
